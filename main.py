@@ -10,7 +10,7 @@ openai.api_key = os.environ.get('OPENAI_API_KEY')
 
 
 # Define the endpoint
-@app.route('/dddx', methods=['GET'])
+@app.route('/ddx', methods=['GET'])
 def diagnose():
     # Get the symptoms description from the query parameter
     symptoms = request.args.get('symptoms')
